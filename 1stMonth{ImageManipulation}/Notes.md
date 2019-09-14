@@ -132,4 +132,5 @@ https://benchpartner.com/power-law-transformations-gamma-correction-in-image-pro
 4. https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
 5. https://en.wikipedia.org/wiki/Computer_vision
 6. https://www.youtube.com/playlist?list=PLh6SAYydrIpctChfPFBlopqw-TGjwWf_8
+7. Fisher, Perkins, Walker & Wolfart (2003). "Spatial Filters - Laplacian of Gaussian". Retrieved 2010-09-13.
 
