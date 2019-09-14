@@ -131,5 +131,5 @@ https://benchpartner.com/power-law-transformations-gamma-correction-in-image-pro
 3. https://www.ijsr.net/archive/v7i1/ART20179794.pdf
 4. https://docs.opencv.org/master/d6/d00/tutorial_py_root.html
 5. https://en.wikipedia.org/wiki/Computer_vision
-
+6. https://www.youtube.com/playlist?list=PLh6SAYydrIpctChfPFBlopqw-TGjwWf_8
 
