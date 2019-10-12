@@ -6,7 +6,7 @@
 [![GitHub license](https://img.shields.io/github/license/0x6f736f646f/computer-vision-ai-saturdays)](https://github.com/0x6f736f646f/computer-vision-ai-saturdays/blob/master/LICENSE)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/opencv-python)
 ![GitHub language count](https://img.shields.io/github/languages/count/0x6f736f646f/computer-vision-ai-saturdays.svg?style=flat)
-
+[![Build Status](https://semaphoreci.com/api/v1/0x6f736f646f/computer-vision-ai-saturdays/branches/master/shields_badge.svg)](https://semaphoreci.com/0x6f736f646f/computer-vision-ai-saturdays)
 
 
 This repository contains classwork and homework for AI-Saturday Nairobi under computer vision. Good luck in finding new bugs 😀.
