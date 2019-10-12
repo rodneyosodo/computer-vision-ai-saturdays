@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 import cv2
 
@@ -20,3 +21,10 @@ cv2.imwrite('../Images/logan.jpg', img)
 cv2.imshow('Image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+=======
+import numpy as np
+import cv2
+
+threshold = 150
+# pip install opencv-python
+>>>>>>> 6213f3fb047622a39489e4a7a5b3578421881105

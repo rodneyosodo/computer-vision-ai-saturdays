@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 import cv2
 
@@ -14,3 +15,9 @@ for i in np.arange(height):
 # cols-1 and rows-1 are the coordinate limits.
 # cv.getRotationMatrix2D(((cols-1)/2.0,(rows-1)/2.0),90,1)
 # cv.warpAffine(img,M,(cols,rows))
+=======
+# ROTATION
+# cols-1 and rows-1 are the coordinate limits.
+# cv.getRotationMatrix2D(((cols-1)/2.0,(rows-1)/2.0),90,1)
+# cv.warpAffine(img,M,(cols,rows))
+>>>>>>> 6213f3fb047622a39489e4a7a5b3578421881105

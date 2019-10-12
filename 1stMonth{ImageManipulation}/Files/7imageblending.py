@@ -1,13 +1,13 @@
 import numpy as np
 import cv2
 
-img1 = cv2.imread('../Images/jurassicworld.jpg',cv2.IMREAD_COLOR)
-img2 = cv2.imread('../Images/love.jpg',cv2.IMREAD_COLOR)
+img1 = cv2.imread('../Images/blend1.jpg',cv2.IMREAD_COLOR)
+img2 = cv2.imread('../Images/blend2.jpg',cv2.IMREAD_COLOR)
 
 height = img1.shape[0]
 width = img1.shape[1]
 
-alpha = 0.6789
+alpha = 0.5
 
 for i in np.arange(height):
     for j in np.arange(width):
