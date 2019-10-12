@@ -6,7 +6,7 @@ img = cv2.imread('../Images/bottle.jpg', cv2.IMREAD_ANYCOLOR)
 height = img.shape[0]
 width = img.shape[1]
 
-contrast = 5
+contrast = 1.5
 
 for i in np.arange(height):
     for j in np.arange(width):
