@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 import numpy as np
 import cv2
-
-threshold = 200
-
+threshold = 150
 
 img = cv2.imread('../Images/logan.jpg', cv2.IMREAD_GRAYSCALE)
 height = img.shape[0]
@@ -13,18 +10,11 @@ for i in np.arange(height):
     for j in np.arange(width):
             a = img.item(i, j)
             
-            if a > threshold:
-                a = 255
+            if a < threshold:
+                a = 0
             img.itemset((i, j), a)
 
 cv2.imwrite('../Images/logan.jpg', img)
 cv2.imshow('Image', img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-=======
-import numpy as np
-import cv2
-
-threshold = 150
-# pip install opencv-python
->>>>>>> 6213f3fb047622a39489e4a7a5b3578421881105
