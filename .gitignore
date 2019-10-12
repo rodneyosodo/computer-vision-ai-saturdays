@@ -105,3 +105,6 @@ venv.bak/
 
 # Weights
 yolov3.weights
+
+#vscode
+.vscode
