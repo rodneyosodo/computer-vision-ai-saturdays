@@ -23,18 +23,6 @@ rules:
     patterns:
     - '**/*.yml'
     
-    
-colors:
-  bug: '#c45b46'
-  feature: '#7b17d8'
-  support: '#efbe62'
-  maintenance: '#b2ffeb'
-  category: '#709ad8'
-  subcategory: '#bfd4f2'
-  pending: '#f0f49a'
-  rejected: '#f7c7be'
-  approved: '#beed6d'
-  low: '#dddddd'
 
 labels:
 - name: bug
