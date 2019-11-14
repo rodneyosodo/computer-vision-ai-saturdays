@@ -13,12 +13,4 @@
 # Add 'repo' label to any root file changes
 repo:
   - ./*
-  
-rules:
-  - labels: [python, code]
-    patterns:
-    - '**/*.py'
 
-  - labels: [configs]
-    patterns:
-    - '**/*.yml'
