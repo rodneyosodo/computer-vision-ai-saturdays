@@ -26,7 +26,6 @@ import matplotlib.pyplot as plt
 import sys
 sys.path.append("..")
 from Scripts.utils import plot_loss_accuracy
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[ ]:
