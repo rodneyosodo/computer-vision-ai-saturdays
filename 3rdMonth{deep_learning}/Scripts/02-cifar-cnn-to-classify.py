@@ -25,7 +25,6 @@ from keras.layers import Dense, Dropout, Activation, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 # For plotting
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 import sys
 sys.path.append("..")
