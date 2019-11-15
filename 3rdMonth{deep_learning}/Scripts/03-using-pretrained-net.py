@@ -23,7 +23,6 @@ import pandas as pd
 import cv2
 import matplotlib.pyplot as plt
 
-get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 # In[ ]:
