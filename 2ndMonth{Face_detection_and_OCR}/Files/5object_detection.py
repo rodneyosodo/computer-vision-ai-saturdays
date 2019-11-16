@@ -44,9 +44,9 @@ for out in outs:
 indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
 
 font = cv2.FONT_HERSHEY_PLAIN
-for i in range(len(boxes)):
+for i, box in enumerate(boxes, 0):
     if i in indexes:
-        x, y, w, h = boxes[i]
+        x, y, w, h = box
         label = str(classes[class_ids[i]])
         color = colors[i]
         cv2.rectangle(img, (x, y), (x + w, y + h), color, 2)

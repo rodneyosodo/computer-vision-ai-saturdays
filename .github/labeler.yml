@@ -1,0 +1,16 @@
+# Add '1stMonth' to any changes within '1stMonth{ImageManipulation}/' folder or any subfolders
+1stMonth:
+  - 1stMonth{ImageManipulation}/**/*
+
+# Add '2ndMonth' to any file changes within '2ndMonth{Face_detection_and_OCR}/' folder
+2ndMonth:
+  - 2ndMonth{Face_detection_and_OCR}/**/*
+
+# Add '3rdMonth' to any file changes within '3rdMonth{deep_learning}/' folder
+3rdMonth:
+  - 3rdMonth{deep_learning}/**/*
+  
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+

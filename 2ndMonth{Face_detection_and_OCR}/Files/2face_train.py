@@ -25,7 +25,7 @@ for root, dirs, files in os.walk(image_dir):
             id_ = label_ids[label]
             img = cv2.imread(path)
             img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-            img = cv2.resize(img, (int(img.shape[1] / 3), int(img.shape[1] / 3)), interpolation = cv2.INTER_AREA)
+            img = cv2.resize(img, (int(img.shape[0] / 3), int(img.shape[1] / 3)), interpolation = cv2.INTER_AREA)
             faces = face_cascade.detectMultiScale(img, 1.1, 5)
 
             for (x,y,w,h) in faces:

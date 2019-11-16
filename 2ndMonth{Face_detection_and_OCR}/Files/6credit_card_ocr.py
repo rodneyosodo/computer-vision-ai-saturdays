@@ -1,12 +1,10 @@
 # import the necessary packages
 from imutils import contours
 import numpy as np
-import argparse
 import imutils
 import cv2
 
 # construct the argument parser and parse the arguments
-ap = argparse.ArgumentParser()
 image = "../Images/credit_card_01.png"
 reference = "../Images/ocr_a_reference.png"
 
